@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+p {
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2 {
+  padding-top: 0;
+  color:black;
+  font-size: 40px;
+  text-align: center;
+  background-image: url(./bmw/img/bmw\ logo.jpg);
+  background-size: 100px;
+}
+
+ul li {
+  color: white;
+  font-size: 20px;
+  list-style-type: circle;
+}
+
+.image-1 {
+  width: 100%;
+}
+
+.image-2 {
+  width: 50%;
+}
+
+.image-3 {
+  width: 50%;
+}
+
+.links {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+}
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: yellow;
+}
+
+#engine {
+  color: red;
+}
+
+b + i{
+	color: red;
+}
+
+p span{
+	color: blue;
+}
