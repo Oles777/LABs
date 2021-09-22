@@ -1,56 +1,56 @@
-body{
-	padding: 0;
-	margin: 0;
-	background-color:black;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
 }
 
-p{
-	color: white;
-	font-size: 24px;
-	line-height: 40px;
-	text-align: center;
+p {
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
 }
 
-h2{
-	padding-top: 0;
-	color: white;
-	font-size: 40px;
-	text-align: center;
-	background-image: url(./img/bmw\ logo.jpg);
-	background-size: 100px;
+h2 {
+  padding-top: 0;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background-image: url(./img/bmw\ logo.jpg);
+  background-size: 100px;
 }
 
-ul li{
-	color: white;
-	font-size: 20px;
+ul li {
+  color: white;
+  font-size: 20px;
 }
 
-.image-1{
-	width: 100%;
-}	
-
-.image-2{
-	width: 50%;
-	
+.image-1 {
+  width: 100%;
 }
 
-.image-3{
-	width: 50%;
+.image-2 {
+  width: 50%;
 }
 
-.links{
-	color: white;
-	display: flex;
-	justify-content: space-between;
-	font-size: 30px;
-	font-weight: bold;
+.image-3 {
+  width: 50%;
 }
 
-
-span{
-	color: blue;
+.links {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-#engine{
-	color: red;
+span {
+  color: blue;
+}
+
+#engine {
+  color: red;
 }
