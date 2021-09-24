@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 2222px;
+}
+
+.block-1 {
+  padding-bottom: 100px;
+}
+
+.block-absolute {
+  width: 100%;
+  height: 100px;
+  background-color: chocolate;
+	font-size: 80px;
+	text-align: center;
+}
+
+.block-absolute:hover{
+	background-color: chartreuse;
+}
+
+.block-float-1 {
+  float: right;
+  width: 30%;
+  max-width: 450px;
+  height: 250px;
+  background-color: darkolivegreen;
+}
+
+.block-float-2 {
+  float: left;
+  width: 30%;
+  max-width: 450px;
+  height: 250px;
+  background-color: darkolivegreen;
+}
+.list{
+	line-height: 50px;
+	font-size: 22px;
+} 
+
+ li:first-child{
+	font-size: 26px;
+	color: white;
+}
+
+.block-2 {
+  padding-bottom: 400px;
+}
+
+.block-3 {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 400px;
+  background-color: coral;
+}
+
+.list-2{
+	list-style: none;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+}
+
+.list-2 li:before{
+	content: "lorem";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+}
+
+.list-2 li:after{
+	content: "lorem";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: blue;
+}
+
+
+
+.block-4 {
+  padding-top: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.span {
+	display: block;
+  width: 30%;
+  height: 100px;
+  background-color:darkgoldenrod;
+}
+
+.link{
+	display: block;
+	font-size: 90px;
+	text-align: center;
+}
+
+.link:visited{
+	color: teal;
+}
+
+.link:hover{
+	color: yellowgreen;
+}
+
+.link:active{
+	color: blue;
+}
+
